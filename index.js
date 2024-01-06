@@ -1,26 +1,26 @@
-var customerName = "bob"; // Declare customerName in global scope using var
+var customerName = "bob";
 
 function upperCaseCustomerName() {
-    customerName.toUpperCase(); // Accesses and uppercases the global customerName variable
+    customerName.toUpperCase(); 
 }
 
-var customerName = "bob"; // Declare customerName in global scope using var
+var customerName = "bob"; 
 
 function upperCaseCustomerName() {
-    customerName = customerName.toUpperCase(); // Accesses and uppercases the global customerName variable
+    customerName = customerName.toUpperCase(); 
 }
 
 function setBestCustomer() {
-    bestCustomer = "not bob"; // Declares bestCustomer in global scope from inside a function
+    bestCustomer = "not bob";
 }
 
 function overwriteBestCustomer() {
-    bestCustomer = "maybe bob"; // Changes the bestCustomer variable in global scope
+    bestCustomer = "maybe bob"; 
 }
 
-const leastFavoriteCustomer = "someone"; // Declare leastFavoriteCustomer as a constant in global scope
+const leastFavoriteCustomer = "someone"; 
 
 function changeLeastFavoriteCustomer() {
-    // Attempting to change a constant (will result in an error)
-    leastFavoriteCustomer = "someone else"; // This line will throw an error
+
+    leastFavoriteCustomer = "someone else"; 
 }
